@@ -3,12 +3,12 @@
 ######################################################################
 
 TEMPLATE = app
-TARGET = age_calc
+TARGET = qTextStreamTest
 INCLUDEPATH += .
 
 # Input
-HEADERS += inputform.h
-SOURCES += age_calc.cpp inputform.cpp
+HEADERS +=
+SOURCES += qTextStreamTest.cpp
 
 # Widgets and QDataStream
 QT += core widgets
